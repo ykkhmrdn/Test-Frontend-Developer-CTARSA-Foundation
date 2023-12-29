@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --Soft-Blue: #5468E7;
+    --Soft-Violet: #C897E4;
+    --Dark-Blue: #232340;
+    --Desaturated-Blue: #7676B2;
+    --Off-White: #F5F5F5;
+    --Light-Orangge: #FFBA79;
+
+    --heading-1: #232340;
+    --heading-1-font-size: 50px;
+    --heading-1-font-family: 'Lexend Deca', sans-serif;
+    --heading-1-font-weight: 700;
+    --heading-1-line-height: 64px;
+
+    --heading-1-mobile: #232340;
+    --heading-1-mobile-font-size: 34px;
+    --heading-1-mobile-font-family: 'Lexend Deca', sans-serif;
+    --heading-1-mobile-font-weight: 700;
+    --heading-1-mobile-line-height: 42px;
+
+    --heading-2: #232340;
+    --heading-2-font-size: 32px;
+    --heading-2-font-family: 'Lexend Deca', sans-serif;
+    --heading-2-font-weight: 400;
+    --heading-2-line-height: 40px;
+
+    --heading-3: #232340;
+    --heading-3-font-size: 24px;
+    --heading-3-font-family: 'Lexend Deca', sans-serif;
+    --heading-3-font-weight: 400;
+    --heading-3-line-height: 30px;
+
+    --heading-4: #232340;
+    --heading-4-font-size: 16px;
+    --heading-4-font-family: 'Lexend Deca', sans-serif;
+    --heading-4-font-weight: 700;
+    --heading-4-line-height: 26px;
+    --heading-4-letter-spacing: 0.16px;
+
+    --paragraph: #232340;
+    --paragraph-font-size: 18px;
+    --paragraph-font-family: 'Lexend Deca', sans-serif;
+    --paragraph-font-weight: 400;
+    --paragraph-line-height: 27px;
+
+    --caption: #232340;
+    --caption-font-size: 14px;
+    --caption-font-family: 'Lexend Deca', sans-serif;
+    --caption-font-weight: 400;
+    --caption-line-height: 23px;
+    --caption-letter-spacing: 0.14px;
+
+    --link: #232340;
+    --link-font-size: 16px;
+    --link-font-family: 'Lexend Deca', sans-serif;
+    --link-font-weight: 500;
+    --link-line-height: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
