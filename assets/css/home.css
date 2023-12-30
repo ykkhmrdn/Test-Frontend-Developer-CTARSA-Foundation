@@ -295,8 +295,10 @@ nav.navbar {
 }
 
 .hero-offer #email, .btn-offer {
-    width: 100%; /* adjust this value as needed */
-    padding: 10px 16px; /* adjust this value as needed */
+    width: 100%;
+    /* adjust this value as needed */
+    padding: 10px 16px;
+    /* adjust this value as needed */
 }
 
 .hero-offer #email {
@@ -376,3 +378,161 @@ nav.navbar {
 
 
 /* End Hero Section */
+
+
+/* Mockup Section */
+
+.mockup-section {
+    margin: 80px 0px 80px 140px;
+}
+
+.mockup-section .mockup {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.offer h1 {
+    color: var(--Dark-Blue);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.offer p {
+    color: rgba(35, 35, 64, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 52px;
+}
+
+.link-button a {
+    color: #5468E7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+@media (max-width: 1080px) {
+    .mockup-section {
+        margin: 60px 0px 76px 30px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .mockup-section .row {
+        flex-direction: column-reverse;
+    }
+
+
+    .mockup-section .mockup img {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 720px) {
+    .mockup-section {
+        margin: 60px 0px 66px 30px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .offer h1 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    .offer p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+/* End Mockup Section */
+
+/* Info Section */
+
+.info-img {
+    position: relative;
+}
+
+.info-img img:first-child {
+    width: 100%;
+    display: block;
+}
+
+.info-img img:last-child {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    width: 250px;
+}
+
+
+@media (max-width: 1080px) {
+    .info-section {
+        margin: 80px 24px 80px 0px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .info-section-1 .row {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .info-section .info-img img {
+        width: 100%;
+        height: auto;
+        margin-left: -100px;
+    }
+
+    .info-img img:first-child {
+        width: 100%;
+        display: block;
+    }
+
+    .info-img img:last-child {
+        position: absolute;
+        top: 24px;
+        right: 130px;
+        width: 180px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .col-12.col-sm-12.col-md-6.col-lg-7,
+    .col-12.col-sm-12.col-md-6.col-lg-5 {
+        display: flex;
+        align-items: start;
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .info-section {
+        margin: 60px 0px 66px 30px;
+    }
+
+    .info-section .info-img img {
+        margin-left: -50px;
+        margin-bottom: 48px;
+    }
+
+    .info-img img:last-child {
+        position: absolute;
+        top: 24px;
+        right: 100px;
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* End Info Section */
