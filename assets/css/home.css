@@ -46,12 +46,12 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    position: relative;
 }
 
 /* Header */
 nav.navbar {
-    padding: 40px 165px 0px 140px;
+    padding: 40px 100px 0px 140px;
 }
 
 .navbar {
@@ -123,6 +123,7 @@ nav.navbar {
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    z-index: 2;
     transition: transform 0.3s ease-in-out, content 0.3s ease-in-out, font-siz e 0.3s ease-in-out;
     -webkit-transition: transform 0.3s ease-in-out, content 0.3s ease-in-out, font-siz e 0.3s ease-in-out;
     -moz-transition: transform 0.3s ease-in-out, content 0.3s ease-in-out, font-siz e 0.3s ease-in-out;
@@ -319,7 +320,7 @@ nav.navbar {
     justify-content: center;
     align-items: flex-start;
     color: var(--Off-White);
-    padding: 160px 0px 0px 140px;
+    padding: 160px 0px 160px 140px;
 }
 
 .hero-offer h1 {
