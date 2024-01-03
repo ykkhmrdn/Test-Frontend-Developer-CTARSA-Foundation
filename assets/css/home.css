@@ -101,6 +101,10 @@ nav.navbar {
     -o-transition: color 0.3s ease;
 }
 
+.navbar-links li a:hover {
+    color: var(--Soft-Blue);
+}
+
 .btn-header {
     color: var(--Off-White);
     padding: 10px 44px 10px 44px;
@@ -112,6 +116,15 @@ nav.navbar {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.btn-header:hover {
+    background: rgba(84, 104, 231, 0.80);
 }
 
 .toggle-button {
@@ -373,6 +386,15 @@ nav.navbar {
     font-weight: 400;
     line-height: 27px;
     word-wrap: break-word;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.btn-offer:hover {
+    background: #768FFD;
 }
 
 
@@ -985,7 +1007,27 @@ footer {
     line-height: 23px;
     letter-spacing: 0.14px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
+
+.footer-links li a:hover {
+    color: var(--Soft-Blue);
+}
+
+.footer-links li p {
+    color: var(--Off-White);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+    text-decoration: none;
+}
+
+
 
 .footer-subscribe input[type="email"]::placeholder {
     color: var(--Off-White);
