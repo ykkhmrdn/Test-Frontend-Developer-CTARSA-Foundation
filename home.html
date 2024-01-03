@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./assets/css/home.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <title>team.</title>
 </head>
@@ -55,7 +56,7 @@
       <!-- End Header -->
 
       <!-- Hero Offer -->
-      <div class="hero-offer row">
+      <div class="hero-offer row" data-aos="fade-right" data-aos-duration="1000">
         <div class="col-12 col-sm-10 col-md-10 col-lg-6">
           <h1>Instant collaboration for remote teams</h1>
           <p>
@@ -86,7 +87,7 @@
   <!-- Mockup Section -->
   <section class="mockup-section">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-12 col-sm-2 col-md-10 col-lg-5 d-flex align-items-center">
           <div class="offer">
             <h1>Chats for your distributed teams</h1>
@@ -119,13 +120,13 @@
       <div class="info-section-1">
         <div class="row justify-content-between">
           <div class="col-12 col-sm-12 col-md-6 col-lg-7 d-flex align-items-center">
-            <div class="info-img">
+            <div class="info-img" data-aos="fade-right" data-aos-duration="1000">
               <img src="./assets/img/info-section-1.png" alt="info-section-1" />
               <img src="./assets//img/Calender.png" alt="Calender">
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-5 d-flex align-items-center">
-            <div class="offer">
+            <div class="offer" data-aos="fade-left" data-aos-duration="1000">
               <h1>Chats for your distributed teams</h1>
               <p>
                 Team combines the immediacy of real-time chat with an email
@@ -145,14 +146,14 @@
       <div class="info-section-2">
         <div class="row justify-content-between">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
-            <div class="info-img">
+            <div class="info-img" data-aos="fade-left" data-aos-duration="1000">
               <img src="./assets/img/info-section-2.png" alt="info-section-2" />
               <img src="./assets//img/info-section-2-review.png" alt="info-section-2-review">
               <img src="./assets/img/info-section-2-progress.png" alt="info-section-2-progress">
             </div>
           </div>
           <div class="col-12 col-sm-8 col-md-6 col-lg-5 d-flex align-items-center">
-            <div class="offer">
+            <div class="offer" data-aos="fade-right" data-aos-duration="1000">
               <h1>Choose how you want to work</h1>
               <p>
                 In Team, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily
@@ -171,14 +172,14 @@
       <div class="info-section-1">
         <div class="row justify-content-between">
           <div class="col-12 col-sm-12 col-md-6 col-lg-7 d-flex align-items-center">
-            <div class="info-img-3">
+            <div class="info-img-3" data-aos="fade-right" data-aos-duration="1000">
               <img src="./assets/img/info-section-3.png" alt="info-section-3" />
               <img src="./assets//img/info-section-3-progress.png" alt="info-section-3-progress">
               <img src="./assets/img/info-section-3-review.png" alt="info-section-3-review">
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-5 d-flex align-items-center">
-            <div class="offer">
+            <div class="offer" data-aos="fade-left" data-aos-duration="1000">
               <h1>Move faster with your Team tools</h1>
               <p>
                 With your other work apps connected to Team, you can work faster by switching tabs less. And with
@@ -200,7 +201,7 @@
 
   <!-- Review Carousel -->
 
-  <section class="review-carousel">
+  <section class="review-carousel" data-aos="fade-up" data-aos-duration="1000">
     <div class="container-fluid">
       <div class="container">
         <div class="review-header">
@@ -466,6 +467,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
