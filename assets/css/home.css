@@ -296,9 +296,7 @@ nav.navbar {
 
 .hero-offer #email, .btn-offer {
     width: 100%;
-    /* adjust this value as needed */
     padding: 10px 16px;
-    /* adjust this value as needed */
 }
 
 .hero-offer #email {
@@ -774,8 +772,8 @@ nav.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:  1px 18px 30px rgba(35, 35, 64, 0.2),
-    -2px -2px 20px #ffffff;
+    box-shadow: 1px 18px 30px rgba(35, 35, 64, 0.2),
+        -2px -2px 20px #ffffff;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -861,3 +859,98 @@ nav.navbar {
 
 
 /* End Review Carousel */
+
+
+/* Footer */
+
+footer {
+    background-color: var(--Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    margin: 73px 0px 16px 0px;
+}
+
+.footer-text p {
+    color: var(--Off-White);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+}
+
+.footer-links {
+    margin-top: 95px;
+    margin-left: 160px;
+}
+
+.footer-links h5 {
+    color: var(--Soft-Blue);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.footer-links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links li a {
+    color: var(--Off-White);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+    text-decoration: none;
+}
+
+.footer-subscribe input[type="email"]::placeholder {
+    color: var(--Off-White);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.40px;
+    letter-spacing: 0.14px;
+}
+
+.footer-subscribe #email {
+    background:#F5F5F53D;
+    padding: 11px 16px 11px 16px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    color: var(--Off-White);
+}
+
+.footer-subscribe #email:focus {
+    outline: none;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    right: 10px;
+}
+
+
+.copyright {
+    color: var(--Off-White);
+    padding: 150px 0px 37px 0px;
+}
+/* End Footer */
