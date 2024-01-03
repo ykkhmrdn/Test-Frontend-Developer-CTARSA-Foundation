@@ -883,7 +883,7 @@ footer {
 }
 
 .footer-links {
-    margin-top: 95px;
+    margin-top: 76px;
     margin-left: 160px;
 }
 
@@ -922,7 +922,7 @@ footer {
 }
 
 .footer-subscribe #email {
-    background:#F5F5F53D;
+    background: #F5F5F53D;
     padding: 11px 16px 11px 16px;
     border-radius: 4px;
     overflow: hidden;
@@ -953,4 +953,21 @@ footer {
     color: var(--Off-White);
     padding: 150px 0px 37px 0px;
 }
+
+@media (max-width: 1080px) {
+
+    footer .container > .row {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        margin: 48px 0px 0px 0px;
+    }
+
+    .copyright {
+        padding: 120px 0px 56px 0px;
+    }
+}
+
+
 /* End Footer */
