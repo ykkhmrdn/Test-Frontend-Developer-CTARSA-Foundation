@@ -134,7 +134,7 @@ nav.navbar {
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
-    background: #000000;
+    background: var(--Off-White);
     display: block;
     height: 4px;
     opacity: 1;
@@ -150,19 +150,19 @@ nav.navbar {
 #burger-menu span {
     right: 0px;
     top: 13px;
-    width: 27px;
+    width: 30px;
 }
 
 #burger-menu span:before {
     left: 0px;
     top: -10px;
-    width: 16px;
+    width: 30px;
 }
 
 #burger-menu span:after {
     left: 0px;
     top: 10px;
-    width: 20px;
+    width: 30px;
 }
 
 #burger-menu.close span {
@@ -258,12 +258,54 @@ nav.navbar {
         gap: 10px;
     }
 
-    .navbar-links {
-        margin-bottom: 1rem;
+    .navbar {
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        justify-content: flex-start;
     }
 
-    .navbar-links li a {
-        margin-right: 14px;
+
+    .toggle-button {
+        display: flex;
+        margin-top: 36px;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: left;
+    }
+
+    .navbar-links ul li a {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .btn-header {
+        display: none;
+        width: 100%;
+    }
+
+    .btn-header.active {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .btn-header {
+        width: auto;
+        justify-content: flex-start;
     }
 }
 
